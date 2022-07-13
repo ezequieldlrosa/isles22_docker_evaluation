@@ -1,0 +1,158 @@
+[
+    {
+        "pk": "22d796c5-e4a2-4efb-9be2-4791650d55e8",
+        "inputs": [
+            {
+                "pk": 12,
+                "file": null,
+                "image": {
+                    "pk": "261f655c-2bd3-4a44-8c6b-953cd3c53dda",
+                    "name": "sub-strokecase0001_ses-0001_dwi.nii.gz"
+                },
+                "value": null,
+                "interface": {
+                    "pk": 1,
+                    "kind": "Image",
+                    "slug": "dwi-brain-mri",
+                    "title": "Generic Medical Image",
+                    "super_kind": "Image",
+                    "description": "",
+                    "default_value": null,
+                    "relative_path": ""
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "api_url": "https://gc.localhost/api/v1/algorithms/jobs/22d796c5-e4a2-4efb-9be2-4791650d55e8/",
+        "outputs": [
+            {
+                "pk": 19,
+                "file": null,
+                "image": {
+                    "pk": "078446e3-21f5-437e-a579-5ebf8ce0bcb4",
+                    "name": "078446e3-21f5-437e-a579-5ebf8ce0bcb4.mha"
+                },
+                "value": null,
+                "interface": {
+                    "pk": 1,
+                    "kind": "Image",
+                    "slug": "stroke-lesion-segmentation",
+                    "title": "Generic Medical Image",
+                    "super_kind": "Image",
+                    "description": "",
+                    "default_value": null,
+                    "relative_path": ""
+                }
+            }
+        ],
+        "started_at": "2022-01-27T19:11:23.396573Z",
+        "completed_at": "2022-01-27T19:11:28.482783Z",
+        "algorithm_image": "AlgorithmImage object (257bd737-4a5b-4868-8ce1-e91095f3f474)",
+        "algorithm_title": "Retinal Vessel Extraction",
+        "rendered_result_text": ""
+    },
+    {
+        "pk": "22d796c5-e4a2-4efb-9be2-4791650d55e8",
+        "inputs": [
+            {
+                "pk": 12,
+                "file": null,
+                "image": {
+                    "pk": "261f656c-2bd4-4a44-8c6b-953cd3c53dde",
+                    "name": "sub-strokecase0002_ses-0001_dwi.nii.gz"
+                },
+                "value": null,
+                "interface": {
+                    "pk": 1,
+                    "kind": "Image",
+                    "slug": "dwi-brain-mri",
+                    "title": "Generic Medical Image",
+                    "super_kind": "Image",
+                    "description": "",
+                    "default_value": null,
+                    "relative_path": ""
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "api_url": "https://gc.localhost/api/v1/algorithms/jobs/22d796c5-e4a2-4efb-9be2-4791650d55e8/",
+        "outputs": [
+            {
+                "pk": 19,
+                "file": null,
+                "image": {
+                    "pk": "7d06e0a6-6704-4ea1-b931-7852a5e400ff",
+                    "name": "079446e3-21f5-437e-a579-5ebf8ce0bcb5.mha"
+                },
+                "value": null,
+                "interface": {
+                    "pk": 1,
+                    "kind": "Image",
+                    "slug": "stroke-lesion-segmentation",
+                    "title": "Generic Medical Image",
+                    "super_kind": "Image",
+                    "description": "",
+                    "default_value": null,
+                    "relative_path": ""
+                }
+            }
+        ],
+        "started_at": "2022-01-27T19:11:23.396573Z",
+        "completed_at": "2022-01-27T19:11:28.482783Z",
+        "algorithm_image": "AlgorithmImage object (257bd737-4a5b-4868-8ce1-e91095f3f474)",
+        "algorithm_title": "Retinal Vessel Extraction",
+        "rendered_result_text": ""
+    },
+        {
+        "pk": "22d796c5-e4a2-4efb-9be2-4791650d55e8",
+        "inputs": [
+            {
+                "pk": 12,
+                "file": null,
+                "image": {
+                    "pk": "261f656c-1bd4-4a44-8c6b-253cd3c53gde",
+                    "name": "sub-strokecase0003_ses-0001_dwi.nii.gz"
+                },
+                "value": null,
+                "interface": {
+                    "pk": 1,
+                    "kind": "Image",
+                    "slug": "dwi-brain-mri",
+                    "title": "Generic Medical Image",
+                    "super_kind": "Image",
+                    "description": "",
+                    "default_value": null,
+                    "relative_path": ""
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "api_url": "https://gc.localhost/api/v1/algorithms/jobs/22d796c5-e4a2-4efb-9be2-4791650d55e8/",
+        "outputs": [
+            {
+                "pk": 19,
+                "file": null,
+                "image": {
+                    "pk": "696d3908-138a-457b-9a87-7927b9151d20",
+                    "name": "089446e3-21f5-437e-a579-5ebf8ce0bcb9.mha"
+                },
+                "value": null,
+                "interface": {
+                    "pk": 1,
+                    "kind": "Image",
+                    "slug": "stroke-lesion-segmentation",
+                    "title": "Generic Medical Image",
+                    "super_kind": "Image",
+                    "description": "",
+                    "default_value": null,
+                    "relative_path": ""
+                }
+            }
+        ],
+        "started_at": "2022-01-27T19:11:23.396573Z",
+        "completed_at": "2022-01-27T19:11:28.482783Z",
+        "algorithm_image": "AlgorithmImage object (257bd737-4a5b-4868-8ce1-e91095f3f474)",
+        "algorithm_title": "Retinal Vessel Extraction",
+        "rendered_result_text": ""
+    }
+]

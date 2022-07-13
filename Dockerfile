@@ -22,6 +22,7 @@ COPY --chown=evaluator:evaluator requirements.txt /opt/evaluation/
 RUN python -m pip install --user -rrequirements.txt
 
 COPY --chown=evaluator:evaluator evaluation.py /opt/evaluation/
+COPY --chown=evaluator:evaluator jsonloader.py /opt/evaluation/
 ADD --chown=evaluator:evaluator eval_metrics_isles.py /opt/evaluation/
 
 
